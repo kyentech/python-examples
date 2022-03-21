@@ -1,0 +1,45 @@
+Bubble sort :
+
+def bubble_sort(arr):
+    n = len(arr)
+    for i in range(0,n-1):
+        for j in range(0,n-i-1):
+            if arr[j] > arr[j + 1]:
+                arr[j],arr[j+1] = arr[j+1],arr[j]
+                
+# Driver code to test above               
+arr = [64, 34, 25, 12, 22, 11, 90]
+ 
+bubble_sort(arr)
+print ("Sorted array is:")
+for i in range(len(arr)):
+    print ("% d" % arr[i],end=" ")  
+
+Fibonacci series:
+
+#f(n) = f(n-2) + f(n-1)
+def fib(n):
+    if n == 0:
+        return 0;
+    elif n == 1:
+        return 1;
+    else:
+        return(n-2) + (n-1)
+my_num=fib(int(input()))
+print(my_num)
+
+String reverse:
+
+def str_reverse(x):
+    return x[::-1]
+my_text=str_reverse("This is my first reverse program")
+print(my_text)
+
+Prime Number:
+
+def prime():
+    for num in range(0,100):
+        if all(num%i!=0 for i in range(2,num)):
+            print(num)
+prime()  
+     

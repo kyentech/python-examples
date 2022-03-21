@@ -1,0 +1,20 @@
+Jun 29, 2008 11:48:54 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Jun 29, 2008 11:48:54 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Jun 29, 2008 11:49:06 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jun 29, 2008 11:49:06 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jun 29, 2008 11:49:12 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP:
+An error occurred at line: 103 in the generated java file
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: 105 in the generated java file
+out cannot be resolved
+
+An error occurred at line: 105 in the generated java file
+_jspx_out cannot be resolved
+
